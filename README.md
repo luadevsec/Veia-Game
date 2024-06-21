@@ -125,8 +125,8 @@ Contribuições são bem-vindas! Por favor, siga as diretrizes abaixo para colab
 4. **Execute o Aplicativo**: Execute o aplicativo em um emulador ou dispositivo físico.
 
 ## Colaboradores
-
 - **Lunna Cipher** - [@Luadevsec](https://github.com/Luadevsec)
+- **João Pedro Sales Moura** - [@JPSales1](https://github.com/JPSales1)
 
 ## Contato
 

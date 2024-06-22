@@ -137,4 +137,3 @@ Para mais informações, entre em contato com **Lunna Cipher**:
 ---
 
 [![GitHub](https://img.shields.io/badge/GitHub-LunnaCipher-blue)](https://github.com/Luadevsec)
-```

@@ -127,7 +127,7 @@ Contribuições são bem-vindas! Por favor, siga as diretrizes abaixo para colab
 ## Colaboradores
 
 - **Lunna Cipher** - [@Luadevsec](https://github.com/Luadevsec)
-
+- **Caio Augusto** https://github.com/caioaugustofn
 ## Contato
 
 Para mais informações, entre em contato com **Lunna Cipher**:

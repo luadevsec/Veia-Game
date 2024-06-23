@@ -8,10 +8,16 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.NavController
 import com.example.veia_game.view_model.MainViewModel
 
 @Composable
-fun MainScreen(viewModel: MainViewModel = viewModel()) {
+fun MainScreen(navController: NavController, viewModel: MainViewModel = viewModel()) {
+    MainScreenContent(viewModel)
+}
+
+@Composable
+fun MainScreenContent(viewModel: MainViewModel = viewModel()) {
     val message = viewModel.message.collectAsState()
 
     Surface(
@@ -30,5 +36,9 @@ fun MainScreen(viewModel: MainViewModel = viewModel()) {
 @Preview(showBackground = true)
 @Composable
 fun MainScreenPreview() {
-    MainScreen()
+    // MockViewModel para visualização
+    val mockViewModel = MainViewModel().apply {
+        // Inicialize qualquer estado necessário para o preview aqui
+    }
+    MainScreenContent(viewModel = mockViewModel)
 }

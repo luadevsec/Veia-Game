@@ -2,6 +2,7 @@ package com.example.veia_game.ui.view.pages
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.clickable
 import androidx.compose.material3.Button
@@ -55,6 +56,7 @@ fun TesteScreen(viewModel: TesteViewModel = viewModel()) {
                             .size(100.dp)
                             .background(Color.White)
                             .padding(2.dp)
+                            .border(2.dp, Color.Black)
                             .clickable { viewModel.makeMove(row, col) }
                     ) {
                         when (board[row][col].player) {

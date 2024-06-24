@@ -17,4 +17,8 @@ class MainViewModel : ViewModel() {
             _message.value = "Welcome to Jetpack Compose!"
         }
     }
+
+    fun ClassicGame() {
+        // Lógica para iniciar o jogo clássico
+    }
 }

@@ -7,6 +7,7 @@ import androidx.activity.viewModels
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.veia_game.ui.theme.MyApplicationTheme
 import com.example.veia_game.ui.view.pages.ClassicScreen
 import com.example.veia_game.ui.view.pages.MainMenuScreen
 import com.example.veia_game.view_model.MainViewModel
@@ -19,12 +20,14 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyApplicationTheme {
                 val navController = rememberNavController()
-
-                NavHost(navController = navController, startDestination = "testemuie") {
-                    composable(
-                        route = "testemuie"
-                    ){MainScreen(navController)}
+                NavHost(navController = navController, startDestination = "menuScreen") {
+                    composable("menuScreen") {
+                        MainMenuScreen(navController = navController, viewModel = viewModel)
                     }
+                    composable("classicGameScreen") {
+                        ClassicScreen()
+                    }
+                }
             }
         }
     }

@@ -128,13 +128,16 @@ Contribuições são bem-vindas! Por favor, siga as diretrizes abaixo para colab
 
 - **Lunna Cipher** - [@Luadevsec](https://github.com/Luadevsec)
 - **Dany Paes** - [@DanyPLS](https://github.com/DanyPaes)
+- **Jornan Rocha** - [@JornanRocha](https://github.com/Jornas-Rocha)
 - **Pedro Borges** - [@lpedritol](https://github.com/lpedritol)
+
 
 ## Contato
 
 Para mais informações, entre em contato com **Lunna Cipher**:
 - **GitHub**: [@Luadevsec](https://github.com/Luadevsec)
 - **Email**: [lunna.devsec@gmail.com](mailto:lunna.devsec@gmail.com)
+
 
 ---
 

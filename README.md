@@ -40,24 +40,32 @@ Sob os seguintes termos:
 Não há garantias. A licença pode não lhe oferecer todas as permissões necessárias para o uso pretendido. Para propósitos legais, consulte os [termos completos da licença](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
 
 
-## MVP
+## Modos de jogo
 
-- **Jogo da Velha Clássico**: Dois jogadores localmente.
+- **Jogo da Velha Clássico**: Dois jogadores podem jogar localmente alternando a vez.
 - **Jogo da Velha Infinito**: Sempre há 3 peças de cada jogador no tabuleiro. Quando uma nova peça é adicionada, a mais antiga desaparece, dando lugar à nova peça.
+- **Jogo da velha robot**: você joga contra um robo para ver quem se supera.
 
 ## Roadmap
 
 ### Telas e Funcionalidades
 
-- **Tela Inicial**: Exibir logo e botões para selecionar o modo de jogo.
-- **Tela de Escolha de Modo**:
-  - 1 Jogador (solo vs robô)
-  - 2 Jogadores (localmente)
-- **Tela do Jogo da Velha Clássico**: Implementar a interface e lógica do jogo clássico.
+- [x] **Tela Inicial**: Exibir logo e botões de menu para selecionar o modo de jogo.
 
-### Backend e Lógica
+[![veja o codigo aqui](./Docs/MainMenu.jpeg)](./app/src/main/java/com/example/veia_game/ui/view/pages/MainMenu.kt)
 
-- Implementar a lógica de jogo para o Jogo da Velha Clássico.
+-[x] **Tela do Jogo da Velha Clássico**: 
+
+[![veja o codigo aqui](./Docs/classicMode.jpeg)](./app/src/main/java/com/example/veia_game/ui/view/pages/TesteScreen.kt)
+
+-[x] **Tela do jogo da velha infinity**:
+
+[![veja o codigo aqui](./Docs/InfinityMode.jpeg)](./app/src/main/java/com/example/veia_game/ui/view/pages/InfinityScreen.kt)
+
+-[ ] **Tela do jogo da velha robot**:
+
+[![veja o codigo aqui](./Docs/RobotMode(experimental).jpeg)](./app/src/main/java/com/example/veia_game/ui/view/pages/ClassicGame.kt)
+
 
 ## Estrutura de Branches
 

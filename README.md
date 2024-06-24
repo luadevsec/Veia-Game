@@ -127,6 +127,7 @@ Contribuições são bem-vindas! Por favor, siga as diretrizes abaixo para colab
 ## Colaboradores
 
 - **Lunna Cipher** - [@Luadevsec](https://github.com/Luadevsec)
+- **Dany Paes** - [@DanyPLS](https://github.com/DanyPaes)
 
 ## Contato
 
@@ -137,4 +138,3 @@ Para mais informações, entre em contato com **Lunna Cipher**:
 ---
 
 [![GitHub](https://img.shields.io/badge/GitHub-LunnaCipher-blue)](https://github.com/Luadevsec)
-```

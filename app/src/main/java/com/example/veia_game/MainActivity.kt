@@ -9,7 +9,9 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.veia_game.ui.theme.MyApplicationTheme
 import com.example.veia_game.ui.view.pages.ClassicScreen
+import com.example.veia_game.ui.view.pages.InfinityScreen
 import com.example.veia_game.ui.view.pages.MainMenuScreen
+import com.example.veia_game.ui.view.pages.TesteScreen
 import com.example.veia_game.view_model.MainViewModel
 
 class MainActivity : ComponentActivity() {
@@ -26,6 +28,12 @@ class MainActivity : ComponentActivity() {
                     }
                     composable("classicGameScreen") {
                         ClassicScreen()
+                    }
+                    composable("teste") {
+                        TesteScreen()
+                    }
+                    composable("Infinity") {
+                        InfinityScreen()
                     }
                 }
             }

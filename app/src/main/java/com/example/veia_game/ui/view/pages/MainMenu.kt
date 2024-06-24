@@ -41,7 +41,23 @@ fun MainMenuScreen(navController: NavController, viewModel: MainViewModel) {
                 .fillMaxWidth()
                 .padding(bottom = 16.dp)
         ) {
+            Text(text = "Robot Mode (soon)")
+        }
+        Button(
+            onClick = { navController.navigate("teste") },
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(bottom = 16.dp)
+        ) {
             Text(text = "Classic Mode")
         }
+        Button(
+                onClick = { navController.navigate("Infinity") },
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(bottom = 16.dp)
+        ) {
+        Text(text = "Infinity Mode")
+    }
     }
 }

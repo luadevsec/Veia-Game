@@ -17,14 +17,14 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            val navController = rememberNavController()
-            NavHost(navController = navController, startDestination = "menuScreen") {
-                composable("menuScreen") {
-                    MainMenuScreen(navController = navController, viewModel = viewModel)
-                }
-                composable("classicGameScreen") {
-                    ClassicScreen()
-                }
+            MyApplicationTheme {
+                val navController = rememberNavController()
+
+                NavHost(navController = navController, startDestination = "testemuie") {
+                    composable(
+                        route = "testemuie"
+                    ){MainScreen(navController)}
+                    }
             }
         }
     }

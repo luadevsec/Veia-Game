@@ -8,6 +8,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.veia_game.ui.view.pages.MainScreen
 import com.example.veia_game.ui.theme.MyApplicationTheme
+import com.example.veia_game.view.Board
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,10 +17,13 @@ class MainActivity : ComponentActivity() {
             MyApplicationTheme {
                 val navController = rememberNavController()
 
-                NavHost(navController = navController, startDestination = "testemuie") {
+                NavHost(navController = navController, startDestination = "grade") {
                     composable(
                         route = "testemuie"
                     ){MainScreen(navController)}
+                    composable(
+                        route = "grade"
+                    ){Board(navController)}
                     }
             }
         }
